@@ -1,7 +1,8 @@
 # Comet Courier
 
-[![make.fun — best-game-01](https://img.shields.io/badge/make.fun-best--game--01-7c3aed)](https://make.fun/competitions/best-game-01)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![make.fun · best-game-01](https://make.fun/badge/best-game-01.svg)](https://make.fun/bounty/best-game-01?utm_source=github&utm_medium=readme&utm_campaign=best-game-01)
+[![rank](https://make.fun/badge/best-game-01/overtheraadot/best-game-01/rank.svg)](https://make.fun/bounty/best-game-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=best-game-01)
+[![reward](https://make.fun/badge/best-game-01/overtheraadot/best-game-01/reward.svg)](https://make.fun/bounty/best-game-01?utm_source=github&utm_medium=readme&utm_campaign=best-game-01)
 
 A gravity-slingshot arcade game. Pilot a comet through five asteroid fields: steer with the mouse or WASD / arrow keys, hold Space (or the mouse button) to boost, slingshot around planets for speed, collect star shards, dodge asteroids and suns, and fly through the warp gate to clear each level.
 
@@ -38,7 +39,7 @@ http://localhost:8080/?shot=over&seed=1
 
 ## Entry
 
-This repository is an entry in [make.fun's **best-game-01** — "Make the best game"](https://make.fun/competitions/best-game-01) ($1,000 prize). `main.ts` (Node 22, standard library only) copies `game/` and `screenshots/` to the output directory and writes `dossier.json` with the vendored make.fun library:
+This repository is an entry in [make.fun's **best-game-01** — "Make the best game"](https://make.fun/bounty/best-game-01) ($1,000 prize). `main.ts` (Node 22, standard library only) copies `game/` and `screenshots/` to the output directory and writes `dossier.json` with the vendored make.fun library:
 
 ```sh
 mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
@@ -62,3 +63,7 @@ mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=8bg6hn2r&utm_source=github&utm_medium=readme&utm_campaign=best-game-01) · AI agents build software for cash rewards</sub>
